@@ -1,0 +1,620 @@
+Enter the name of an input text file: Seuss.txt
+Enter the separator characters: . ;?(),13579=-"\t\n
+
+  Chose one of the options listed below and, optionally,
+  enter the initial character of the tokens to print:
+    1 - Print input lines
+    2 - Print original unsorted tokens
+    3 - Print tokens sorted by text
+    4 - Print tokens sorted by frequency
+    5 - Print tokens sorted by length
+    0 - Exit
+
+  Enter your input: 1
+
+Dictionary Source File: Seuss.txt
+Separator characters: . ;?(),13579=-"\t\n
+
+Input Lines
+===========
+  1: Top 12 Dr. Seuss Quotes
+  2:
+  3: Dr. Seuss, whose real name was Theodor Seuss Geisel, is famous for
+  4: his funny children's books filled imaginative characters, rhyme, and
+  5: use of trisyllabic meter.
+  6:
+  7: He was born in 1904, and began writing children's books in 1937. He
+  8: went on to write over 60 books and also wrote for magazines,
+  9: newspapers, and advertising companies.
+ 10:
+ 11: Some of his most famous works are The Cat in the Hat, Green Eggs and
+ 12: Ham, and One Fish Two Fish Red Fish Blue Fish.
+ 13:
+ 14: Listed below are some of Dr. Seuss' most notable quotes.
+ 15:
+ 16: 1. "Today you are You, that is truer than true. There is no one alive
+ 17:    who is Youer than You."
+ 18:
+ 19: 2. "The more that you read, the more things you will know. The more
+ 20:    that you learn, the more places you'll go."
+ 21:
+ 22: 3. "And will you succeed? Yes indeed, yes indeed! Ninety-eight and
+ 23:    three-quarters percent guaranteed!"
+ 24:
+ 25: 4. "If you never did you should. These things are fun and fun is good"
+ 26:
+ 27: 5. "My alphabet starts with this letter called yuzz. It's the letter I
+ 28:    use to spell yuzz-a-ma-tuzz. You'll be sort of surprised what
+ 29:    there is to be found once you go beyond 'Z' and start poking around!"
+ 30:
+ 31: 6. "I like nonsense, it wakes up the brain cells."
+ 32:
+ 33: 7. "I do not like green eggs and ham I do not like them sam I am."
+ 34:
+ 35: 8. "Today is your day! Your mountain is waiting. So... get on your way."
+ 36:
+ 37: 9. "Unless someone like you cares a whole awful lot, nothing is going
+ 38:    to get better. It's not."
+ 39:
+ 40: 10. "Be who you are and say what you feel because those who mind
+ 41:     don't matter and those who matter don't mind."
+ 42:
+ 43: 11. "Don't cry because it's over. Smile because it happened."
+ 44:
+ 45: 12. "I have heard there are troubles of more than one kind. Some come
+ 46:     from ahead and some come from behind. But I've bought a big bat.
+ 47:     I'm all ready you see. Now my troubles are going to have troubles
+ 48:     with me!"
+
+  Chose one of the options listed below and, optionally,
+  enter the initial character of the tokens to print:
+    1 - Print input lines
+    2 - Print original unsorted tokens
+    3 - Print tokens sorted by text
+    4 - Print tokens sorted by frequency
+    5 - Print tokens sorted by length
+    0 - Exit
+
+  Enter your input: 12f3iab4wc890"
+
+Dictionary Source File: Seuss.txt
+Separator characters: . ;?(),13579=-"\t\n
+
+Input Lines
+===========
+  8: went on to write over 60 books and also wrote for magazines,
+ 17:    who is Youer than You."
+ 19: 2. "The more that you read, the more things you will know. The more
+ 22: 3. "And will you succeed? Yes indeed, yes indeed! Ninety-eight and
+ 25: 4. "If you never did you should. These things are fun and fun is good"
+ 35: 8. "Today is your day! Your mountain is waiting. So... get on your way."
+ 37: 9. "Unless someone like you cares a whole awful lot, nothing is going
+ 46:     from ahead and some come from behind. But I've bought a big bat.
+ 47:     I'm all ready you see. Now my troubles are going to have troubles
+ 48:     with me!"
+
+  Chose one of the options listed below and, optionally,
+  enter the initial character of the tokens to print:
+    1 - Print input lines
+    2 - Print original unsorted tokens
+    3 - Print tokens sorted by text
+    4 - Print tokens sorted by frequency
+    5 - Print tokens sorted by length
+    0 - Exit
+
+  Enter your input: 2def
+
+Dictionary Source File: Seuss.txt
+Separator characters: . ;?(),13579=-"\t\n
+
+Dictionary Unsorted
+===================
+<D>
+              Dr  (3) 1 3 14
+             did  (1) 25
+              do  (2) 33
+            day!  (1) 35
+           don't  (2) 41
+           Don't  (1) 43
+
+<E>
+            Eggs  (1) 11
+           eight  (1) 22
+            eggs  (1) 33
+
+<F>
+          famous  (2) 3 11
+             for  (2) 3 8
+           funny  (1) 4
+          filled  (1) 4
+            Fish  (4) 12
+             fun  (2) 25
+           found  (1) 29
+            feel  (1) 40
+            from  (2) 46
+
+  Chose one of the options listed below and, optionally,
+  enter the initial character of the tokens to print:
+    1 - Print input lines
+    2 - Print original unsorted tokens
+    3 - Print tokens sorted by text
+    4 - Print tokens sorted by frequency
+    5 - Print tokens sorted by length
+    0 - Exit
+
+  Enter your input: 3defxyzdddddddeeeeeeeeeeee?-)(*!fffffff...zzzzzzz,,,yyyyyyy///xxxxxxxxx+++
+
+Dictionary Source File: Seuss.txt
+Separator characters: . ;?(),13579=-"\t\n
+
+Dictionary sorted by token text
+===============================
+<D>
+           Don't  (1) 43
+              Dr  (3) 1 3 14
+            day!  (1) 35
+             did  (1) 25
+              do  (2) 33
+           don't  (2) 41
+
+<E>
+            Eggs  (1) 11
+            eggs  (1) 33
+           eight  (1) 22
+
+<F>
+            Fish  (4) 12
+          famous  (2) 3 11
+            feel  (1) 40
+          filled  (1) 4
+             for  (2) 3 8
+           found  (1) 29
+            from  (2) 46
+             fun  (2) 25
+           funny  (1) 4
+
+<X>
+
+<Y>
+             Yes  (1) 22
+             You  (2) 16 17
+          You'll  (1) 28
+           Youer  (1) 17
+            Your  (1) 35
+             yes  (1) 22
+             you  (12) 16 19 20 22 25 29 37 40 47
+          you'll  (1) 20
+            your  (2) 35
+            yuzz  (2) 27 28
+
+<Z>
+
+<>
+             'Z'  (1) 29
+               0  (1) 40
+              04  (1) 7
+               2  (3) 1 19 45
+               4  (1) 25
+               6  (1) 31
+              60  (1) 8
+               8  (1) 35
+
+  Chose one of the options listed below and, optionally,
+  enter the initial character of the tokens to print:
+    1 - Print input lines
+    2 - Print original unsorted tokens
+    3 - Print tokens sorted by text
+    4 - Print tokens sorted by frequency
+    5 - Print tokens sorted by length
+    0 - Exit
+
+  Enter your input: 4defxyz><
+
+Dictionary Source File: Seuss.txt
+Separator characters: . ;?(),13579=-"\t\n
+
+Dictionary sorted by token frequency
+====================================
+<D>
+           Don't  (1) 43
+            day!  (1) 35
+             did  (1) 25
+              do  (2) 33
+           don't  (2) 41
+              Dr  (3) 1 3 14
+
+<E>
+            Eggs  (1) 11
+            eggs  (1) 33
+           eight  (1) 22
+
+<F>
+            feel  (1) 40
+          filled  (1) 4
+           found  (1) 29
+           funny  (1) 4
+          famous  (2) 3 11
+             for  (2) 3 8
+            from  (2) 46
+             fun  (2) 25
+            Fish  (4) 12
+
+<X>
+
+<Y>
+             Yes  (1) 22
+          You'll  (1) 28
+           Youer  (1) 17
+            Your  (1) 35
+             yes  (1) 22
+          you'll  (1) 20
+             You  (2) 16 17
+            your  (2) 35
+            yuzz  (2) 27 28
+             you  (12) 16 19 20 22 25 29 37 40 47
+
+<Z>
+
+<>
+             'Z'  (1) 29
+               0  (1) 40
+              04  (1) 7
+               4  (1) 25
+               6  (1) 31
+              60  (1) 8
+               8  (1) 35
+               2  (3) 1 19 45
+
+  Chose one of the options listed below and, optionally,
+  enter the initial character of the tokens to print:
+    1 - Print input lines
+    2 - Print original unsorted tokens
+    3 - Print tokens sorted by text
+    4 - Print tokens sorted by frequency
+    5 - Print tokens sorted by length
+    0 - Exit
+
+  Enter your input: 5def.>,<zyz
+
+Dictionary Source File: Seuss.txt
+Separator characters: . ;?(),13579=-"\t\n
+
+Dictionary sorted by token length
+=================================
+<D>
+              Dr  (3) 1 3 14
+              do  (2) 33
+             did  (1) 25
+            day!  (1) 35
+           Don't  (1) 43
+           don't  (2) 41
+
+<E>
+            Eggs  (1) 11
+            eggs  (1) 33
+           eight  (1) 22
+
+<F>
+             for  (2) 3 8
+             fun  (2) 25
+            Fish  (4) 12
+            feel  (1) 40
+            from  (2) 46
+           found  (1) 29
+           funny  (1) 4
+          famous  (2) 3 11
+          filled  (1) 4
+
+<Y>
+             Yes  (1) 22
+             You  (2) 16 17
+             yes  (1) 22
+             you  (12) 16 19 20 22 25 29 37 40 47
+            Your  (1) 35
+            your  (2) 35
+            yuzz  (2) 27 28
+           Youer  (1) 17
+          You'll  (1) 28
+          you'll  (1) 20
+
+<Z>
+
+<>
+               0  (1) 40
+               2  (3) 1 19 45
+               4  (1) 25
+               6  (1) 31
+               8  (1) 35
+              04  (1) 7
+              60  (1) 8
+             'Z'  (1) 29
+
+  Chose one of the options listed below and, optionally,
+  enter the initial character of the tokens to print:
+    1 - Print input lines
+    2 - Print original unsorted tokens
+    3 - Print tokens sorted by text
+    4 - Print tokens sorted by frequency
+    5 - Print tokens sorted by length
+    0 - Exit
+
+  Enter your input: 2
+
+Dictionary Source File: Seuss.txt
+Separator characters: . ;?(),13579=-"\t\n
+
+Dictionary Unsorted
+===================
+<A>
+             and  (13) 4 7 8 9 11 12 22 25 29 33 40 41 46
+            also  (1) 8
+     advertising  (1) 9
+             are  (7) 11 14 16 25 40 45 47
+           alive  (1) 16
+             And  (1) 22
+        alphabet  (1) 27
+               a  (3) 28 37 46
+         around!  (1) 29
+              am  (1) 33
+           awful  (1) 37
+           ahead  (1) 46
+             all  (1) 47
+
+<B>
+           books  (3) 4 7 8
+            born  (1) 7
+           began  (1) 7
+            Blue  (1) 12
+           below  (1) 14
+              be  (2) 28 29
+          beyond  (1) 29
+           brain  (1) 31
+          better  (1) 38
+              Be  (1) 40
+         because  (3) 40 43
+          behind  (1) 46
+             But  (1) 46
+          bought  (1) 46
+             big  (1) 46
+             bat  (1) 46
+
+<C>
+      children's  (2) 4 7
+      characters  (1) 4
+       companies  (1) 9
+             Cat  (1) 11
+          called  (1) 27
+           cells  (1) 31
+           cares  (1) 37
+             cry  (1) 43
+            come  (2) 45 46
+
+<D>
+              Dr  (3) 1 3 14
+             did  (1) 25
+              do  (2) 33
+            day!  (1) 35
+           don't  (2) 41
+           Don't  (1) 43
+
+<E>
+            Eggs  (1) 11
+           eight  (1) 22
+            eggs  (1) 33
+
+<F>
+          famous  (2) 3 11
+             for  (2) 3 8
+           funny  (1) 4
+          filled  (1) 4
+            Fish  (4) 12
+             fun  (2) 25
+           found  (1) 29
+            feel  (1) 40
+            from  (2) 46
+
+<G>
+          Geisel  (1) 3
+           Green  (1) 11
+              go  (2) 20 29
+     guaranteed!  (1) 23
+            good  (1) 25
+           green  (1) 33
+             get  (2) 35 38
+           going  (2) 37 47
+
+<H>
+             his  (2) 4 11
+              He  (2) 7
+             Hat  (1) 11
+             Ham  (1) 12
+             ham  (1) 33
+        happened  (1) 43
+            have  (2) 45 47
+           heard  (1) 45
+
+<I>
+              is  (9) 3 16 17 25 29 35 37
+     imaginative  (1) 4
+              in  (3) 7 11
+          indeed  (1) 22
+         indeed!  (1) 22
+              If  (1) 25
+            It's  (2) 27 38
+               I  (6) 27 31 33 45
+              it  (2) 31 43
+            it's  (1) 43
+            I've  (1) 46
+             I'm  (1) 47
+
+<J>
+
+<K>
+            know  (1) 19
+            kind  (1) 45
+
+<L>
+          Listed  (1) 14
+           learn  (1) 20
+          letter  (2) 27
+            like  (4) 31 33 37
+             lot  (1) 37
+
+<M>
+           meter  (1) 5
+       magazines  (1) 8
+            most  (2) 11 14
+            more  (5) 19 20 45
+              My  (1) 27
+              ma  (1) 28
+        mountain  (1) 35
+            mind  (2) 40 41
+          matter  (2) 41
+              my  (1) 47
+             me!  (1) 48
+
+<N>
+            name  (1) 3
+      newspapers  (1) 9
+         notable  (1) 14
+              no  (1) 16
+          Ninety  (1) 22
+           never  (1) 25
+        nonsense  (1) 31
+             not  (3) 33 38
+         nothing  (1) 37
+             Now  (1) 47
+
+<O>
+              of  (5) 5 11 14 28 45
+              on  (2) 8 35
+            over  (2) 8 43
+             One  (1) 12
+             one  (2) 16 45
+            once  (1) 29
+
+<P>
+          places  (1) 20
+         percent  (1) 23
+          poking  (1) 29
+
+<Q>
+          Quotes  (1) 1
+          quotes  (1) 14
+        quarters  (1) 23
+
+<R>
+            real  (1) 3
+           rhyme  (1) 4
+             Red  (1) 12
+            read  (1) 19
+           ready  (1) 47
+
+<S>
+           Seuss  (3) 1 3
+            Some  (2) 11 45
+            some  (2) 14 46
+          Seuss'  (1) 14
+         succeed  (1) 22
+          should  (1) 25
+          starts  (1) 27
+           spell  (1) 28
+            sort  (1) 28
+       surprised  (1) 28
+           start  (1) 29
+             sam  (1) 33
+              So  (1) 35
+         someone  (1) 37
+             say  (1) 40
+           Smile  (1) 43
+             see  (1) 47
+
+<T>
+             Top  (1) 1
+         Theodor  (1) 3
+     trisyllabic  (1) 5
+              to  (5) 8 28 29 38 47
+             The  (3) 11 19
+             the  (5) 11 19 20 27 31
+             Two  (1) 12
+           Today  (2) 16 35
+            that  (3) 16 19 20
+           truer  (1) 16
+            than  (3) 16 17 45
+            true  (1) 16
+           There  (1) 16
+          things  (2) 19 25
+           three  (1) 23
+           These  (1) 25
+            this  (1) 27
+            tuzz  (1) 28
+           there  (2) 29 45
+            them  (1) 33
+           those  (2) 40 41
+        troubles  (3) 45 47
+
+<U>
+             use  (2) 5 28
+              up  (1) 31
+          Unless  (1) 37
+
+<V>
+
+<W>
+           whose  (1) 3
+             was  (2) 3 7
+         writing  (1) 7
+            went  (1) 8
+           write  (1) 8
+           wrote  (1) 8
+           works  (1) 11
+             who  (4) 17 40 41
+            will  (2) 19 22
+            with  (2) 27 48
+            what  (2) 28 40
+           wakes  (1) 31
+         waiting  (1) 35
+             way  (1) 35
+           whole  (1) 37
+
+<X>
+
+<Y>
+             you  (12) 16 19 20 22 25 29 37 40 47
+             You  (2) 16 17
+           Youer  (1) 17
+          you'll  (1) 20
+             Yes  (1) 22
+             yes  (1) 22
+            yuzz  (2) 27 28
+          You'll  (1) 28
+            your  (2) 35
+            Your  (1) 35
+
+<Z>
+
+<>
+               2  (3) 1 19 45
+              04  (1) 7
+              60  (1) 8
+               4  (1) 25
+             'Z'  (1) 29
+               6  (1) 31
+               8  (1) 35
+               0  (1) 40
+
+  Chose one of the options listed below and, optionally,
+  enter the initial character of the tokens to print:
+    1 - Print input lines
+    2 - Print original unsorted tokens
+    3 - Print tokens sorted by text
+    4 - Print tokens sorted by frequency
+    5 - Print tokens sorted by length
+    0 - Exit
+
+  Enter your input: 0
+
+Goodbye.
+
+C:\Users\annel\source\repos\Asg2\x64\Debug\Asg2.exe (process 3604) exited with code 0.
+Press any key to close this window . . .
